@@ -1,7 +1,5 @@
 package homework;
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
         Employee[] employees = new Employee[5];
@@ -11,6 +9,10 @@ public class Main {
         employees[3] = new Employee("Alice Brown", "Engineer", "alice.brown@example.com", "789-012-3456", 65000.0, 40);
         employees[4] = new Employee("Sam Wilson", "Analyst", "sam.wilson@example.com", "012-345-6789", 70000.0, 45);
 
+        showEmployeesWithAgeGreaterThan40Age(employees);
+
+    }
+    public static void showEmployeesWithAgeGreaterThan40Age(Employee[] employees) {
         for (Employee e : employees) {
             if (e.getAge() >= 40) e.show();
         }
