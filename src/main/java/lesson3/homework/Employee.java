@@ -30,7 +30,7 @@ package lesson3.homework;
         5. С помощью цикла вывести информацию только о сотрудниках старше 40 лет.*/
 public class Employee {
 
-    private String fio;
+    private String fullName;
 
     private String position;
 
@@ -47,7 +47,7 @@ public class Employee {
     }
 
     public Employee(String fio, String position, String email, String phone, double salary, int age) {
-        this.fio = fio;
+        this.fullName = fio;
         this.position = position;
         this.email = email;
         this.phone = phone;
@@ -66,7 +66,7 @@ public class Employee {
                         "  salary=%.2f,\n" +
                         "  age=%d\n" +
                         "}\n",
-                fio, position, email, phone, salary, age
+                fullName, position, email, phone, salary, age
         );
     }
 
