@@ -1,4 +1,4 @@
-package lesson1.homework1;
+package lesson4.homework_les4;
 
 /*5. Расширить задачу про котов и тарелки с едой, выполнив следующие пункты:
 
