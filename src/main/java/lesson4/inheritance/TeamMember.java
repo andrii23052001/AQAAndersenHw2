@@ -5,13 +5,9 @@ public class TeamMember {
     public int age;
     public String profession;
 
-    @Override
-    public String toString() {
-        return "TeamMember{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", profession='" + profession + '\'';
-    }
+    //public TeamMember(){}
+
+    public int y = 22;
 
     public TeamMember(String name, int age, String profession) {
         this.name = name;
@@ -19,7 +15,14 @@ public class TeamMember {
         this.profession = profession;
     }
 
+    @Override
+    public String toString() {
+        return "name='" + name + '\'' +
+                ", age=" + age +
+                ", profession='" + profession;
+    }
+
     public void doWork(){
-        System.out.println("I do my work(TeamMember)");
+        System.out.println("I do my work (TeamMember)");
     }
 }

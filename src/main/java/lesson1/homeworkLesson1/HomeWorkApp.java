@@ -1,4 +1,4 @@
-package homework;
+package lesson1.homeworkLesson1;
 /*1. Создать удаленный репозиторий на GitHub, подключить его к IDE в качестве проекта, добавить к нему модуль Maven. Создать новую ветку в репозитории в IntelliJ IDEA, создать класс HomeWorkApp, и прописать в нем метод main().
 
         2. Создайте метод printThreeWords(), который при вызове должен отпечатать в столбец три слова: Orange, Banana, Apple.
