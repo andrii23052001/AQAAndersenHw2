@@ -12,8 +12,9 @@ package lesson4.homework_les4;
 
         ● Добавить в тарелку метод, с помощью которого можно было бы добавлять еду в тарелку.*/
 public class Plate {
-    private int foodAmount;
+    private int foodAmount; // Количество еды в тарелке
 
+    // Конструктор для инициализации тарелки заданным количеством еды
     public Plate(int foodAmount) {
         this.foodAmount = foodAmount;
     }
@@ -21,17 +22,17 @@ public class Plate {
     // Метод для добавления еды в тарелку
     public void addFood(int amount) {
         if (amount > 0) {
-            foodAmount += amount;
+            foodAmount += amount; // Увеличиваем количество еды на заданную величину
             System.out.println("Добавлено " + amount + " еды в тарелку.");
         } else {
             System.out.println("Количество еды должно быть больше нуля.");
         }
     }
 
-    // Метод для уменьшения количества еды в тарелке и проверки на отрицательное количество
+    // Метод для уменьшения количества еды в тарелке
     public void decreaseFood(int amount) {
         if (foodAmount >= amount) {
-            foodAmount -= amount;
+            foodAmount -= amount; // Уменьшаем количество еды на заданную величину
             System.out.println("Кот поел из тарелки. Осталось " + foodAmount + " еды.");
         } else {
             System.out.println("Недостаточно еды в тарелке.");

@@ -6,15 +6,15 @@ public class Cat extends Animal {
     private boolean satiety; // сытость
 
     public Cat(String name) {
-        super(name, 200, 0);
-        catCount++;
+        super(name, 200, 0); // Вызов конструктора суперкласса Animal
+        catCount++; // Увеличение счетчика при создании нового кота
     }
 
     public Cat(String name, int appetite) {
-        super(name, 200, 0); // Предположим, что коты не умеют плавать
+        super(name, 200, 0); // Вызов конструктора суперкласса Animal
         this.appetite = appetite;
         this.satiety = false; // При создании кота он голоден (сытость = false)
-        catCount++;
+        catCount++; // Увеличение счетчика при создании нового кота
     }
 
     public static int getCatCount() {

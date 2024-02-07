@@ -3,15 +3,15 @@ package lesson4.homework_les4;
 // Создаем класс Animal
 public class Animal {
     // Поля класса
-    protected String name;
-    protected int runLimit;
-    protected int swimLimit;
+    protected String name; // Имя животного
+    protected int runLimit; // Предел бега
+    protected int swimLimit; // Предел плавания
 
     // Конструктор класса Animal
     public Animal(String name, int runLimit, int swimLimit) {
-        this.name = name;
-        this.runLimit = runLimit;
-        this.swimLimit = swimLimit;
+        this.name = name; // Инициализация имени
+        this.runLimit = runLimit; // Инициализация предела бега
+        this.swimLimit = swimLimit; // Инициализация предела плавания
     }
 
     // Метод для бега животного
