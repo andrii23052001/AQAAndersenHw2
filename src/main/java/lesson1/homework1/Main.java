@@ -1,4 +1,4 @@
-package homework1;
+package lesson1.homework1;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +13,7 @@ public class Main {
         animals.add(dog2);
         Dog dog3 = new Dog("Макс");
         animals.add(dog3);
-        
+
         for (Animal animal : animals) {
             if (animal instanceof Dog) {
                 Dog dog = (Dog) animal;

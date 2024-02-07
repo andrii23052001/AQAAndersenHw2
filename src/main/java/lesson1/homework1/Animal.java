@@ -1,4 +1,4 @@
-package homework1;
+package lesson1.homework1;
 
 // Создаем класс Animal
 public class Animal {

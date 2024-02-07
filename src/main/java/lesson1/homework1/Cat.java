@@ -1,4 +1,4 @@
-package homework1;
+package lesson1.homework1;
 
 public class Cat extends Animal {
     private static int catCount = 0;
