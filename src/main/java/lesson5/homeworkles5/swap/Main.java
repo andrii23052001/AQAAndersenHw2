@@ -13,7 +13,7 @@ public class Main {
         System.out.println();
 
         // Меняем местами второй и четвертый элементы массива
-        Swap.swap(intArray, 1, 3);
+        Swap.swap(intArray, 0, 2);
 
         // Выводим массив после обмена элементов
         System.out.println("After swapping:");
